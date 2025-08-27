@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install -y python3-dev build-essential git zip unzip openjdk-17-jdk clang make pkg-config libjpeg-turbo libpng fftw
+        sudo apt install -y python3-dev build-essential git zip unzip openjdk-17-jdk clang make pkg-config libjpeg-dev libpng-dev libfftw3-dev
         pip install --upgrade pip
         pip install buildozer
 
